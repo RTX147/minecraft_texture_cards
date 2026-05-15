@@ -1,0 +1,21 @@
+{
+ "providers":
+  [
+   {
+   "type":"bitmap",
+   "file":"minecraft:147/147.png",
+   "ascent":19,
+   "height":32,
+   "chars": ["\ue147"]},
+   {
+   "type":"bitmap",
+   "file":"minecraft:147/148.png",
+   "ascent":19,
+   "height":32,
+   "chars": ["\ue149"]},
+   {
+   "type": "space",
+   "advances":{"\ue148": -1.19}
+   }
+  ]
+}
