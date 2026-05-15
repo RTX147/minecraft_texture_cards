@@ -6,6 +6,6 @@
 ![演示图片](Mockup/03.png)  
 ![演示图片](Mockup/02.png)  
 它可以显示任何你所需要展示的画面你只需要替换项目中的这两张图片,你就可以获得你想要的  
-![演示图片](Mockup/04.png)  
-![演示图片](Mockup/04.png)  
+[图片](Repository/Resource_Pack/assets/minecraft/textures/147.png)  
+[图片](Repository/Resource_Pack/assets/minecraft/textures/149.png)  
 #### 很抱歉项目才刚开始还没有完善-_-ll
