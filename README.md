@@ -3,6 +3,6 @@
 选择语言即可开始阅读  
 After selecting the language, you can start reading.
 
-如何给你的材质包添加小卡片  
-How to create cards for your texture pack.
+如果想让你的材质包看起来更高级那就来试试这个项目吧  
+Want your texture pack to look more advanced? Try this project!
 ![演示图片](Mockup/03.png)
