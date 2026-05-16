@@ -3,19 +3,19 @@
   [
    {
    "type":"bitmap",
-   "file":"minecraft:147/147.png",
+   "file":"minecraft:147/146.png",
    "ascent":29,
    "height":32,
-   "chars": ["\ue147"]},
+   "chars": ["\ue146"]},
    {
    "type":"bitmap",
-   "file":"minecraft:147/149.png",
+   "file":"minecraft:147/148.png",
    "ascent":29,
    "height":32,
-   "chars": ["\ue149"]},
+   "chars": ["\ue148"]},
    {
    "type": "space",
-   "advances":{"\ue148": -1.19}
+   "advances":{"\ue147": -1.19}
    }
   ]
 }
