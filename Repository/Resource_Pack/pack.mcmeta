@@ -1,9 +1,7 @@
 {
   "pack":{
     "pack_format":15,
-    "supported_formats":[1, 64],
-    "min_format":1,
-    "max_format":147,
+    "supported_formats":[1, 147],
     "description":"§bminecraft texture cards\n§f\ue146\ue147\ue148"
   }
 }
