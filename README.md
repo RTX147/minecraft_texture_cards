@@ -7,4 +7,4 @@ After selecting the language, you can start reading.
 Want your texture pack to look more advanced? Try this project!
 ![演示图片](Mockup/03.png)
 ###### 如果你需要商用的话，请发邮件告诉我,当然,这不是强制的
-####### 2513819704@qq.com
+###### 2513819704@qq.com
