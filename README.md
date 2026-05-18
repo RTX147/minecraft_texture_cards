@@ -6,4 +6,4 @@ After selecting the language, you can start reading.
 如果想让你的材质包看起来更高级那就来试试这个项目吧  
 Want your texture pack to look more advanced? Try this project!
 ![演示图片](Mockup/03.png)
-##### 如果你需要商用的话，请发邮件告诉我
+#### 如果你需要商用的话，请发邮件告诉我,当然,这不是强制的
