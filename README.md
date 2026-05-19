@@ -1,7 +1,7 @@
 # 我的世界材质包卡片
 ## [中文](./README.zh-CN.md)/[English](./README.en-US.md)
 选择语言即可阅读更多  
-After selecting the language, you can start reading.
+Select a language to read more instructions.  
 
 如果想让你的材质包看起来更高级那就来试试这个项目吧  
 Want your texture pack to look more advanced? Try this project!
