@@ -20,32 +20,37 @@
 {
   "pack":{
     "pack_format":15,
-    "supported_formats":[1, 147],
-    "description":"§bminecraft texture cards\n§f\ue146\ue147\ue148"
+    "supported_formats":[1, 64],
+    "min_format":1,
+    "max_format":147,
+    "description":"第一行文本测试\n一二三四五六七八九十一二三四§f\ue145\ue146\ue147\ue148"
   }
 }
-#RTX147
+#RTX1R7
 ```
 中
 ```md
-`\n§f\ue146\ue147\ue148`
+`\n`和`§f\ue145\ue146\ue147\ue148`
 ```
-是不可改动的,如果改动会出现显示错误,(但5.会提到之中需要改动的位置)
+是必须改动的但改动方式在[点击跳转4](#4)
 其他的请随意,包括这一段  
 ```md
-`§bminecraft texture cards`
-```  
-可以改成你想显示的介绍话语
+`第一行文本测试`
+```
+可以改成你想显示的介绍话语但需要遵守[点击跳转到第3节](#3)
+```md
+`一二三四五六七八九十一二三四`
+```
+的修改方式在[点击跳转8](#8)
 ### 3
 请确保你的介绍话语绝对没有像这样,超过第一行，来到第二行   
 ![演示图片](Mockup/05.jpg)  
-否则会出现错误  
-像这样↓的择可以,即使是写满第一行,也没有问题  
+否则会出现显示错误    
 ![演示图片](Mockup/06.jpg)  
-即使是写未满第一行，也已经有`\n`换行了再不需要打换行符
-###### 即将支持两行介绍文字显示,但还需等待1.4v  
+↑像这样写满第一行没有问题  
+如果未写满第一行需要使用`\n`换行
 ### 4
-在[字符替换文件](Repository/Resource_Pack/assets/minecraft/font/default.json)  
+在[字符替换文件](Repository/Resource_Pack/assets/minecraft/font/default.json)
 ```json
 {
  "providers":
@@ -53,19 +58,21 @@
    {
    "type":"bitmap",
    "file":"minecraft:147/146.png",
-   "ascent":29,
+   "ascent":28,
    "height":32,
    "chars": ["\ue146"]},
    {
    "type":"bitmap",
    "file":"minecraft:147/148.png",
-   "ascent":29,
+   "ascent":28,
    "height":32,
    "chars": ["\ue148"]},
    {
    "type": "space",
-   "advances":{"\ue147": -1.19}
-   }
+   "advances":{"\ue147": -1.17}},
+   {
+   "type": "space",
+   "advances":{"\ue145": -126}}
   ]
 }
 ```
@@ -78,15 +85,20 @@
 2.改名只能改动`\ue`之后的数字部分,最高三位数不得超过,也不能小于三位数  
 3.如果你有其他材质,请不要与其他材质上的名一样,否则同时装载时会出现错误   
 4.在`\ue`之后填写可以包含以下内容,其余则不行  
-###### 0-1  a-f  A-F
-###### 字母加数字`\uea6f`纯数字`\ue198`纯字母(可以纯大写或纯小写)`\ueabc`大写加小写`\ueAbC`都是可以的
-5.`\ue146`和`\ue148`改动后不可相同如`\ue146`和`\ue148`改为`\ue777`和`\ue777`不行  
+`0-1``a-f``A-F`  
+[字母加数字`\uea6f`][纯数字`\ue198`][纯字母(可以纯大写或纯小写)`\ueabc`][大写加小写`\ueAbC`]都是可以的
+5.`\ue146`和`\ue148`改动后不可相同如`\ue146`和`\ue148`改为`\ue777`和`\ue777`则不行  
 6.改动后需要一同改动[材质包信息文件](Repository/Resource_Pack/pack.mcmeta)  
 中的`\ue146`和`\ue148`但不一样的是你在[字符替换文件](Repository/Resource_Pack/assets/minecraft/font/default.json)中改的叫什么这里的就应该同步叫什么  
-7.[卡片图片1](Repository/Resource_Pack/assets/minecraft/textures/147/146.png)的像素是-长边256-短边72  
-[卡片图片2](Repository/Resource_Pack/assets/minecraft/textures/147/148.png)的像素是-长边95-短边72  
-8.像素多了少了都会影响图片显示  
-9.他们合起来是一张351比72的图片，可以根据这个来制作你的卡片  
+### 5
+[卡片图片1](Repository/Resource_Pack/assets/minecraft/textures/147/146.png)的像素是-长边256-短边72  
+[卡片图片2](Repository/Resource_Pack/assets/minecraft/textures/147/148.png)的像素是-长边80-短边72  
+### 6  
+像素多了少了都会影响图片显示  
+### 7  
+他们合起来是一张125+80比72的图片，可以根据这个来制作你的卡片  
+### 8
+
 
 #### 很抱歉项目才刚开始还没有完善-_-ll
 ###### (可以先问候作者让他先教你😋)
