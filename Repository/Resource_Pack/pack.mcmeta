@@ -1,8 +1,9 @@
 {
   "pack":{
     "pack_format":15,
-    "supported_formats":[1, 147],
-    "description":"§bminecraft texture cards\n§f\ue146\ue147\ue148"
+    "supported_formats":[1, 64],
+    "min_format":1,
+    "max_format":147,
+    "description":"第一行文本测试\n一二三四五六七八九十一二三四§f\ue145\ue146\ue147\ue148"
   }
 }
-#RTX147
